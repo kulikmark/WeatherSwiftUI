@@ -59,7 +59,6 @@ struct WeatherView: View {
                 .frame(maxWidth: .infinity)
                 
             }
-            .padding()
             .frame(maxWidth: .infinity, alignment: .leading)
             
             VStack {
@@ -89,7 +88,7 @@ struct WeatherView: View {
                 .padding(.bottom, 20)
                 .foregroundColor(Color(hue: 0.656, saturation: 0.787, brightness: 0.354))
                 .background(.white)
-                .cornerRadius(40, corners: [.topRight, .topLeft])
+                .cornerRadius(20, corners: [.topLeft, .topRight])
             }
         }
         .edgesIgnoringSafeArea(.bottom)
